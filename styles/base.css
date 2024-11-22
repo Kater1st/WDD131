@@ -1,0 +1,144 @@
+h1{
+    color: white;
+    background-color: #00daa8;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    background-color: #00daa8;
+    text-align: center;
+    padding: 12px;
+    margin: 0 0 10px 0; 
+    border-radius: 12px 12px 0 0;
+}
+
+h3{
+    text-align: center;
+    padding: 12px;
+    font-size: 30px;
+ 
+}
+.nav-list {
+    
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+        
+    
+}
+
+.nav-list a:hover {
+    color:yellowgreen; 
+    background-color: black; 
+    text-decoration: underline; 
+    border-radius: 5px; 
+    font-size: 30px;
+    
+  }
+
+
+a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    
+
+
+}
+
+
+.header-name{
+    color: blue;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.about-me{
+
+    display: flex;
+    margin: 15px;
+}
+
+.pro-pic{
+    width: 300px;
+}
+
+.web-res{
+    
+    align-content: center;
+}
+
+.web-res a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-size: 25px;
+    width: 400px;
+}
+
+.card{
+    border: solid 1px grey;
+    margin: 10px;
+    border-radius: 12px;
+}
+.contry{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.flag{
+    width: 400px;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #00daa8;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.descr{
+    font-size: 30px;
+}
+
+hr{
+    width: 75%;
+}
+
+.wrl{
+    align-items: center;
+}
+
+.flag-infor{
+    text-align: center;
+    font-style: italic;
+}
+
+#lastModified{
+    color: white;
+}
+
+/*
+.wr{
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    width: 100%;
+}
+/
