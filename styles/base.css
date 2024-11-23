@@ -1,9 +1,14 @@
+body{
+    font-family: roboto;
+}
+
 h1{
     color: white;
     background-color: #00daa8;
     padding: 20px;
     margin: 0;
     text-align: center;
+    font-weight: 100;
 }
 
 h2{
@@ -13,12 +18,14 @@ h2{
     padding: 12px;
     margin: 0 0 10px 0; 
     border-radius: 12px 12px 0 0;
+    font-weight: 100;
 }
 
 h3{
     text-align: center;
     padding: 12px;
     font-size: 30px;
+    font-weight: 100;
  
 }
 .nav-list {
@@ -30,6 +37,7 @@ h3{
     list-style-type: none;
     margin: 0;
     padding: 12px;
+    font-weight: 700;
         
     
 }
@@ -40,6 +48,7 @@ h3{
     text-decoration: underline; 
     border-radius: 5px; 
     font-size: 30px;
+    font-weight: 100;
     
   }
 
@@ -87,7 +96,18 @@ main{
     align-items: center;
     font-size: 25px;
     width: 400px;
+    transition: all 0.3s ease;
 }
+
+
+.web-res a:hover {
+    color:blue; 
+    text-decoration: underline; 
+    border-radius: 5px; 
+    font-size: 30px;
+    font-weight: 700;
+    
+  }
 
 .card{
     border: solid 1px grey;
@@ -123,6 +143,7 @@ hr{
 
 .wrl{
     align-items: center;
+    margin-top: 400px;
 }
 
 .flag-infor{
