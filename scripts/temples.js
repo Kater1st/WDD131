@@ -1,25 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('nav');
     const menuIcon = document.querySelector('.menu-icon');
-    const navList = document.querySelector('.nav-list');  // Change to .nav-list
 
-    hamburger.addEventListener('click', function(e) {
-        e.preventDefault();
-        // Toggle the nav menu
-        navList.classList.toggle('active');
-        // Toggle the icon
+    hamburger.addEventListener('click', () => {
+        nav.classList.toggle('active');
         menuIcon.classList.toggle('active');
     });
-
-    // Close menu when clicking outside
-    document.addEventListener('click', function(event) {
-        if (!navList.contains(event.target) && !hamburger.contains(event.target)) {
-            navList.classList.remove('active');
-            menuIcon.classList.remove('active');
-        }
-    });
 });
-
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -29,3 +17,4 @@ document.addEventListener("DOMContentLoaded", function () {
     const lastModified = document.lastModified;
     document.getElementById("lastModified").textContent = `Last modified: ${lastModified}`;
   });
+  

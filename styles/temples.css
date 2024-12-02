@@ -1,5 +1,4 @@
 
-
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -8,59 +7,50 @@ body {
     color: #333;
 }
 
-header {
-    display: flex;
-    background-color: #6a1b9a;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+h2 {
+    display:flex;
+    justify-content: center;
     
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #6a1b9a;
+    color: white;
+}
+
 .hamburger {
-    display: none; 
-    font-size: 24px;
+    display: none;
     background: none;
     border: none;
-    color: white;
     cursor: pointer;
-    margin: 0 1rem;
+    font-size: 24px;
+    color: white;
+    margin-left: auto;
 }
 
-.nav-list {
-    display: flex;
-    flex-direction: column;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+.menu-icon::before {
+    content: '☰';
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
 }
 
 nav li {
     margin: 0 15px;
-    
 }
 
 nav a {
-    display: block;
     color: white;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
@@ -76,8 +66,9 @@ main {
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
-
+    gap: 1rem;
 }
+
 img {
     width: 100%;
     height: auto;
@@ -85,13 +76,12 @@ img {
 
 figcaption {
     text-align: center;
-    padding: 0.5rem;
     font-weight: bold;
 }
 
 footer {
     text-align: center;
-    padding: 1rem 0;
     background-color: #6a1b9a;
     color: white;
+    padding: 1rem;
 }
