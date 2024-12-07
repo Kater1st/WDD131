@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zimbabwe</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Zimbabwe</h1>
+    </header>
+
+    <section class="hero">
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/zimbabwe-vicfalls-small.webp">
+            <source media="(min-width: 601px)" srcset="images/zimbabwe-vicfalls.webp">
+            <img src="images/zimbabwe-vicfalls.webp" alt="Beautiful landscape of Zimbabwe The Victory Falls">
+        </picture>
+    </section>
+
+    <main>
+        <section class="data">
+            <h2>Data</h2>
+            <p>Area: 390,757 sq km</p>
+            <p>Capital: Harare</p>
+            <p>Languages: Shona, Ndebele, English</p>
+            <p>Time Zone: UTC+2</p>
+            <p>Calling Code: +263</p>
+            <p>Internet TLD: .zw</p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img class="weather-icon" src="images/weather-icon.svg" alt="weather-icon">
+            <p>Temperature: <span id="temperature">34 °C</span></p>
+            <p>Conditions: Partly Cloudy</p>
+            <p>Wind: <span id="wind">5 km/h</span></p>
+            <p>Wind Chill: <span id="windChill">N/A</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> 👨🏽‍🎨Tinashe Allan Katenaire👨🏽‍🎨
+            Zimbabwe
+        </p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
