@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h2 {
+    display:flex;
+    justify-content: center;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #6a1b9a;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    margin-left: auto;
+}
+
+.menu-icon::before {
+    content: '☰';
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.temple-card {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid #cacaca;
+}
+
+footer {
+    text-align: center;
+    background-color: #6a1b9a;
+    color: white;
+    padding: 1rem;
+}
