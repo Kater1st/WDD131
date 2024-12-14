@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  main {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    display: inline-block;
+    margin: 5px 20px;
+    font-weight: bold;
+    justify-items: space-evenly;
+    
+    }
+
+legend {
+    display: inline-block;
+    margin: 5px 20px;
+    font-weight: bold;
+    
+        
+}
+.radio{
+    display: inline-flex;
+}
+
+  
+.feature {
+    display: inline-block;
+}
+
+#review {
+    display: grid;
+    justify-content: center;
+}
+select {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+
+
+#username {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+}
+  
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="radio"] {
+    display: flex;
+    justify-items: center;
+    margin: 0;
+}
+
+input[type="date" i] {
+    margin: auto 4px
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .rating {
+        display: grid;
+        
+      } 
+    .features {
+        display: grid;
+      }
+    
+    lable {
+        display: inline-flex;
+    }
+
+    .radio{
+        display: flex;
+    }
+    
+}
