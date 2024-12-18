@@ -665,3 +665,10 @@ nav.active {
 .media-card:hover {
     background-color: #ff3f57;
 }
+
+.bottom-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    margin-top: 15px;
+}
