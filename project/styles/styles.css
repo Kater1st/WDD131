@@ -139,7 +139,7 @@ header{
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     color: black;
-    z-index: index 1;
+    z-index: 1;
     justify-content: center;
     }
 
