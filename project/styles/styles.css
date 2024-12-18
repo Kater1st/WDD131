@@ -305,7 +305,7 @@ ul.ame-stats  {
 
 .vs {
     font-size: 18px;
-    color: #ee1e46;
+    color: white;
     margin: 0 10px;
 }
 
@@ -315,13 +315,13 @@ ul.ame-stats  {
 }
 
 .league-title {
-    color: #ee1e46;;
+    color: white;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .arena {
-    color: #ee1e46;;
+    color: white;
     font-weight: bold;
 }
 
@@ -446,7 +446,7 @@ tbody tr:hover {
   }
   
   .read-more {
-    color: #ee1e46;
+    color: white;
     text-decoration: none;
     font-weight: bold;
   }
@@ -585,7 +585,7 @@ nav.active {
   }
   
   .contact-info a {
-    color: red;
+    color: white;
     text-decoration: none;
     font-weight: 400;
   }
