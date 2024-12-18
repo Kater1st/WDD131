@@ -126,3 +126,4 @@ const blogs = [
     e.preventDefault();
     alert("Message Sent Successfully!");
   });
+
